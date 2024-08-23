@@ -10,6 +10,7 @@ import Gallery from './component_manage/example/Example1';
 import ListRender from './component_manage/example/ListRender';
 import EventComponents from './interaction/EventComponents';
 import StateComponent from './interaction/StateComponent';
+import ForwardingComponent from './interaction/ForwardingComponent';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <Table/> */}
       {/* <ListRender/> */}
       {/* <EventComponents/> */}
-      <StateComponent/>
+      {/* <StateComponent/> */}
+      <ForwardingComponent/>
     </div>
   );
 }
