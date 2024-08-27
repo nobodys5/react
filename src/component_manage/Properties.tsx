@@ -9,7 +9,6 @@ import React, { ReactNode } from 'react'
 // - 컴포넌트가 리렌더링되는 기준
 // - Properties는 부모 -> 자식으로 데이터 전송 o / 자식 -> 부모로 데이터 전송 x
 
-// interface로 props 객체 생성 부모 컴포넌트역할
 interface Props {
     sequence: number;
     title:string;

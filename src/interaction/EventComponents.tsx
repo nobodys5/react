@@ -64,7 +64,7 @@ export default function EventComponents() {
             </div>
         ))};
 
-        <h1>{count}</h1>
+        <h1> {count}</h1>
         <button onClick={onIncrease}>카운트버튼</button>
         </>
     )
