@@ -25,9 +25,12 @@ import { create } from 'zustand'
 
 interface Store {
     address:string;
-    setAddress: (address: string) => void;   
+    setAddress: (address: string) => void;
+       
 }
 
+// address: address 는 address 하나로 통일해서 아래와 같이 사용 가능
+// 일종의 훅이기때문에 use를 사용하여 변수명을 짓는다.
 const useStore = create<Store>((set) => ({ 
         address: '',
         // set 함수의 매개변수로는 현재 상태(store)를 받는 콜백함수를 전달
